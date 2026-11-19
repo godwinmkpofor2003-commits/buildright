@@ -50,6 +50,7 @@ body {
     nav,
 .me {
  display: flex;
+ transition:0.5s;
     }
 
  ul {
@@ -78,7 +79,12 @@ header{
     border: 0;
     background-color: #f57c00;
     color:inherit;
-
 }
-
+.me:hover{
+    background-color: red;
+    transform: scale(1.2);
+}
+.me:active{
+    background-color: black;
+}
 }
