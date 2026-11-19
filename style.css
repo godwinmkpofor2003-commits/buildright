@@ -1,7 +1,7 @@
-:root{
+:root {
     --color-me: #1a1c1c;
-    --color-you:#964900;
-    --font-us:"Inter", sans-serif;
+    --color-you: #964900;
+    --font-us: "Inter", sans-serif;
 }
 
 * {
@@ -27,7 +27,7 @@ header {
     text-transform: uppercase;
     font-size: 1.2rem;
     font-size: 24px;
-    font-family:var(--font-us);
+    font-family: var(--font-us);
     font-weight: 800;
     color: var(--color-you);
 }
@@ -42,52 +42,60 @@ body {
     background-color: #f9f9f9;
 }
 
-@media(min-width:1024px){
- .you {
-  display: none;
+@media(min-width:1024px) {
+    .you {
+        display: none;
     }
 
     nav,
-.me {
- display: flex;
- transition-duration: o.3s;
- transition-timing-function: ease;
+    .me {
+        display: flex;
 
     }
 
- ul {
- display: flex;
- list-style: none;
- gap: 64px;
- text-transform: capitalize;
- }
- a{
-    color: var(--color-me);
-    text-decoration: none;
-    font-family: var(--font-us);
-    font-size:0.8rem;
-    font-weight: 800;
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 64px;
+        text-transform: capitalize;
+    }
 
- }
- li:nth-child(1) a{ 
-    color:var(--color-you);
-}
-header{
-    padding: 18px 48px;
-}
-.me{
-    border-radius: 20px;
-    padding: 8px 24px;
-    border: 0;
-    background-color: #f57c00;
-    color:inherit;
-}
-.me:hover{
-    background-color: red;
-    transform: scale(1.2);
-}
-.me:active{
-    background-color: black;
-    color:white;
-}
+    a {
+        color: var(--color-me);
+        text-decoration: none;
+        font-family: var(--font-us);
+        font-size: 0.8rem;
+        font-weight: 800;
+
+    }
+
+    li:nth-child(1) a {
+        color: var(--color-you);
+    }
+
+    header {
+        padding: 18px 48px;
+    }
+
+    .me {
+        border-radius: 20px;
+        padding: 8px 24px;
+        border: 0;
+        background-color: #f57c00;
+        color: inherit;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-property: transform, opacity, background-color;
+    }
+
+    .me:hover {
+        background-color: red;
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+
+    .me:active {
+        background-color: black;
+        color: white;
+    }
 }
