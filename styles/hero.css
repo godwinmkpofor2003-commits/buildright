@@ -1,0 +1,39 @@
+.morris{
+    background-color:var(--color-primary);
+    color: var(--color-us);
+    width:fit-content;
+    padding: 4px 10px;
+    font-family:var(--font-us);
+    text-transform: uppercase;
+}
+.hero h2{
+font-size: 32px;
+font-weight: 800;
+color:var(--color-primary);
+text-transform: capitalize;
+font-family: var(--font-us);
+}
+span{
+    color:var(--color-you);
+
+}
+.text p{
+    font-family: var(--font-us);
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.but-on button{
+    background-color: var(--color-you);
+    padding: 16px 0;
+    width: 100%;
+    color:#ffff;
+    border: 0;
+}
+
+.but-on button:last-child{
+    background-color: transparent;
+    border: 2px solid var(--color-me);
+     color:var(--color-me)
+}
