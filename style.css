@@ -97,22 +97,24 @@ body {
     .me:active {
         background-color: black;
         color: white;
-}
-li{
-    transition-duration: 0.5s;
-    transition-property: transform;
-    transition-timing-function: ease;
-}
+    }
 
-li:hover{
-    font-weight: 300;
-    transform: scale(1.2);
-     background-color: #c9c5c5;
-     border-radius: 30px;
-    
-}
-li a:active {
-    background-color: #171715;
-    color:#fff;
-}
+    li {
+        transition-duration: 0.5s;
+        transition-property: transform;
+        transition-timing-function: ease;
+    }
+
+    li:hover {
+        font-weight: 300;
+        transform: scale(1.2);
+        background-color: #c9c5c5;
+        border-radius: 30px;
+
+    }
+
+    li a:active {
+        background-color: #171715;
+        color: #fff;
+    }
 }
