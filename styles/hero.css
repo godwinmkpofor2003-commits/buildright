@@ -1,5 +1,5 @@
 .morris{
-    background-color:var(--color-primary);
+    background-color:var(--color-me);
     color: var(--color-us);
     width:fit-content;
     padding: 4px 10px;
@@ -16,6 +16,11 @@ font-family: var(--font-us);
 span{
     color:var(--color-you);
 
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
 }
 .text p{
     font-family: var(--font-us);
