@@ -1,9 +1,9 @@
-.expertise {
+.metro {
     padding: 20px;
     font-family: var(--inter);
 }
 
-.article-header {
+.metro-header {
     background-color: var(--article-header-color);
     width: 100%;
     height: fit-content;
@@ -12,28 +12,28 @@
     padding: 10px;
 }
 
-.expertise h2 {
+.metro h2 {
     position: relative;
     font-size: 1.5rem;
     
 }
-.expertise h2::after{
+.metro h2::after{
     content: "";
     display: block;
     border-bottom: 10px solid var(--orange) ;
     width: 30%
 }
-.expertise-title {
+.me-title {
     display: flex;
 
     flex-direction: column;
 }
 
-.expertise-title p {
+.metro-title p {
     padding: 30px 0px;
 }
 
-.expertise article {
+.metro article {
     background-color: #F3F3F3;
     border: 2px solid var(--line-color);
 }
@@ -42,13 +42,13 @@
     padding: 0px 20px;
 }
 
-.article-ctn {
+.chain-ctn {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.article-title {
+.chain-title {
     font-family: var(--inter);
     font-weight: 700;
     font-size: 1.5rem;
@@ -56,7 +56,7 @@
     padding: 0px 20px;
 }
 
-.article-description {
+.chain-description {
     font-family: var(--inter);
     font-size: 1rem;
     color: var(--light-orange);
@@ -70,6 +70,9 @@
     padding: 20px 20px;
     color: var(--inter);
     font-family: var(--inter);
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    transition-property: transform,opacity;
 }
 
 .learn-more-div a {
@@ -77,31 +80,31 @@
     color: var(--inter);
 }
 
-.articles-div {
+.chain-div {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 @media(min-width:1024px) {
-    .expertise {
+    .metro {
         padding: 50px;
     }
 
-    .expertise h2 {
+    .metro h2 {
         font-size: 2rem;
     }
 
-    .expertise-title {
+    .metro-title {
         flex-direction: row;
         align-items: center;
         padding: 20px 0px;
     }
 
-    .articles-div {
+    .chain-div {
         flex-direction: row;
     }
-    .expertise h2::after{
+    .metro h2::after{
         content: "";
         display: block;
         border-bottom: 10px solid var(--orange) ;
